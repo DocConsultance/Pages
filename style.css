@@ -3,11 +3,14 @@ body{
 }
 
 .navbar-light .navbar-brand{
-  color: #fff !important;
+  color: #fff;
+
+}
+.navbar-brand{
+  margin-left: 1em;
 }
 .nav-item{
-  margin-left: 20px;
-  width: 150px;
+  padding: 0.1em;
 }
 .nav-link{
   color: #fff !important;
@@ -16,48 +19,31 @@ body{
   margin-right: 30px;
 
 }
-.form-inline{
-  margin-left: 700px;
-  display: block;
-}
 
 #navbarNav{
-  height: 50px;
+  height: 30px;
 }
 .navbtn{
-  margin-right: 15px;
+  right: 10px;
+  margin: 8px;
 }
 
-
-#carouselExampleControls{
-  height: 50vh;
+#carouselExampleControl{
+  height: 350px;
   background-color: #00b586;
 }
 .carh2{
-  /* padding: 120px 0 0px 180px; */
-  /* display: inline-block; */
   font-weight: 700;
   color: #fff;
 }
 .carp{
-  /* max-width: 35%; */
-  /* float: left; */
   text-align: left;
-  /* padding-left: 180px; */
-  /* margin-left: 180px;
-    margin-top: 50px !important; */
-    color: #fff;
-
+  color: #fff;
 }
 
 .carimg{
-  /* float: right; */
-/* margin-top: 20px;
-margin-right: 170px; */
-  /* width: 35%; */
+  text-align: center;
   height: 50%;
-  /* margin-top: 50px;
-  margin-bottom: 50px; */
 }
 .leftcol{
   padding-left: 9%;
@@ -68,15 +54,10 @@ margin-right: 170px; */
 .carbtn{
   width: 180px;
   height: 45px;
-  text-align:center;
   font-size: 20px;
   padding: 4px ;
-  border-radius: 10px;
   border:3px solid #0a966c;
   color: #0a966c;
-  background-color: #fff;
-  /* margin-left: -535px;
-  margin-top: 200px; */
   display: inline-block;
 }
 
@@ -94,40 +75,10 @@ margin-right: 170px; */
   margin-top: 30px !important;
 }
 
-body {
-  font-family: 'Manrope', sans-serif !important;
-  overflow-x: hidden;
-}
-/* anmol css */
-
-
-
-#app {
-  padding: 5% 10%;
-  text-align: center;
-}
-
-.apara {
-  margin-top: 20px;
-}
-
-.abtn {
-  width: 280px;
-  height: 52px;
-  text-align: center;
-  font-size: 20px;
-  background-color: #0a966c;
-  color: #fff;
-  padding: 1% 2%;
-  /* padding-bottom: 2px !important; */
-  margin-top: 30px !important;
-  display: inline-block;
-  border-radius: 10px;
-}
 
 #docvc {
   padding: 5% 10%;
-  background-color: #ff847c;
+  background-color: #687BFC;
   color: #fff;
 }
 
@@ -138,7 +89,8 @@ body {
 .docimg {
   display: block;
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
+  margin-top: 0%;
 }
 
 .docright {
@@ -160,15 +112,17 @@ h2 {
 
 #services {
 
-  padding-top: 9%;
+  padding-top: 5%;
   padding-left: 15%;
   padding-right: 15%;
+  padding-bottom: 2%;
   margin: 0 auto;
+  height: 10rem;
 }
 
 .servh {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom:1em;
 }
 
 .services {
@@ -290,10 +244,3 @@ i {
 
 
 }
-
-
-
-
-
-
-
