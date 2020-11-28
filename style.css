@@ -20,12 +20,18 @@ body{
 
 }
 
-/* #navbarNav{
-  height: 30px;
-} */
-.navbtn{
-  right: 10px;
-  margin: 8px;
+
+
+
+.navbtn-log{
+    position: absolute;
+  right: 50px;
+  
+}
+.navbtn-sign{
+    position: absolute;
+  right: 150px;
+  
 }
 
 #carouselExampleControl{
@@ -43,7 +49,7 @@ body{
 
 .carimg{
   text-align: center;
-  height: 50%;
+  height: 300px;
 }
 .leftcol{
   padding-left: 9%;
@@ -148,15 +154,12 @@ i {
   background-color: #e8e8e8;
   position: relative;
   top: 320px;
-  /* left: 100px; */
-  /* padding-top:-10px; */
   margin: -100px auto auto;
   border-radius: 40px;
 }
 .signup-form{
   padding: 5% 5%;
 }
-
 #regh2{
   text-align: center;
 }
@@ -165,7 +168,6 @@ i {
 }
 .footer {
   height: 600px;
-
   background: #4E4C62;
   color: white;
 }
@@ -173,9 +175,7 @@ i {
   padding-top: 280px;
   height: 500px;
 }
-/* .mt-5, .my-5 {
-    margin-top: 0rem!important;
-} */
+
 .links {
   ul {
     list-style-type: none;
@@ -202,9 +202,12 @@ i {
   border-top: 1px solid rgba(255, 255, 255, .1);
 }
 
-@media (max-width:990px) {
-  .carh2 {
-    text-align: center;
+@media (max-width:700px) {
+  #carouselExampleControl{
+  height: 600px;
+  background-color: #00b586;
+}
+    .carh2 {
     margin: 0 auto;
     padding-left: 0;
     padding-top: 50px;
@@ -212,23 +215,15 @@ i {
 
   .carp {
     text-align: center;
-    margin-left: 300px;
-    /* width: 800px;
-    height: 100px;
-    margin-left: 300px;
-    display: block;
-    vertical-align: middle; */
+
   }
 
   .carimg {
-    display: inline-block;
-    vertical-align: middle;
-    /* margin-top: 50px;
-  margin-right: 300px; */
+    margin: 5% 20%;
+   height: 200px;
   }
   .footer {
-    height: 1000px;
-
+    height: 850px;
     background: #4E4C62;
     color: white;
   }
@@ -237,9 +232,12 @@ i {
   }
   .reg{
     border-radius: 30px;
+      margin-top: 150px
   }
   .name{
-    margin-bottom: 20px;
+    margin:10px 0;
+      padding: 0 0 0 0;
+      
   }
 
 
