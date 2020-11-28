@@ -51,9 +51,7 @@ body{
   text-align: center;
   height: 300px;
 }
-.leftcol{
-  padding-left: 9%;
-}
+
 /* .car{
   padding: 3%;
 } */
@@ -176,6 +174,12 @@ i {
   height: 500px;
 }
 
+
+.carousel-inner{
+    margin-left: -20px;
+}
+
+
 .links {
   ul {
     list-style-type: none;
@@ -219,7 +223,7 @@ i {
   }
 
   .carimg {
-    margin: 5% 20%;
+    
    height: 200px;
   }
   .footer {
@@ -227,12 +231,10 @@ i {
     background: #4E4C62;
     color: white;
   }
-  .row{
-    margin-left: 30px !important;
-  }
+ 
   .reg{
     border-radius: 30px;
-      margin-top: 150px
+      margin-top: 250px
   }
   .name{
     margin:10px 0;
