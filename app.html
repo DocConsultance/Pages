@@ -12,7 +12,16 @@
     <!-- googlefont api -->
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
-
+<style media="screen">
+.form label {
+    margin:0 1.5%;
+    font-size: 22px;
+    background: rgba(255,255,255,0.5);
+}
+/* .footer{
+  margin-top: -100px;
+} */
+</style>
 <body>
 
     <!-- navbar -->
@@ -45,6 +54,7 @@
     <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
     <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
   </div> -->
+<div class="container-fluid">
 <div class = row>
     <div class = "col-3 left-nav">
         <ul><b>
@@ -55,19 +65,23 @@
             <li><a href="#">Logout</a></li></b>
         </ul>
     </div>
-    
-    
+
+
     <div class = "col-9 form">
             <div id="head">
                 <h2>New Appointment</h2>
             </div>
             <form class="" action="index.html" method="post">
 
+              <div class="form-group row">
+                <label class="col-form-label col-sm-2">Doctor ID</label>
+                <input class="form-control col-sm-6" type="text" placeholder="Enter your preffered doctor's ID">
+                  &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp<a href="#">Search from list.</a>
+              </div>
 
-                <label>Doctor ID</label> 
-                <input type="text" placeholder="Enter your preffered doctor's ID"><br><a href="#">Search from list.</a>
-                <br><label>Category</label>
-                <select name="Categories" id="cat">
+              <div class="form-group row">
+                <br><label class="col-form-label col-sm-2">Category</label>
+                <select name="Categories" class="form-control col-sm-4" id="cat">
                     <option value="default">Select</option>
                     <option value="Cardio">Cardiologist</option>
                     <option value="gp">General Physician</option>
@@ -76,10 +90,11 @@
                     <option value="Neuro">Neurologist</option>
                     <option value="Ortho">Orthopedic</option>
                 </select>
-
-                <!city>
-                    <br><label>City</label>
-                    <select name="cities" id="city">
+                </div>
+                <!-- <!city> -->
+                <div class="form-group row">
+                    <br><label  class="col-form-label col-sm-2">City</label>
+                    <select class="form-control col-sm-4" name="cities" id="city">
                         <option value="default">Select</option>
                         <option value="bpl">Bhopal</option>
                         <option value="bom">Mumbai</option>
@@ -88,22 +103,25 @@
                         <option value="kol">Kolkata</option>
                         <option value="chnadi">Chandigarh</option>
                     </select>
-                    <br>
-                    <label>Date</label>
+                    </div>
+                    <div class="form-group row">
+                    <label  class="col-form-label col-sm-2">Date</label>
 
-                    <input type="date">
-                    <br>
-                    <label>Time</label>
+                    <input class="form-control col-sm-4" type="date">
+                    </div>
+                  <div class="form-group row">
+                    <label  class="col-form-label col-sm-2">Time</label>
 
-                    <input type="time"><br>
-                    <button class ="btn-success" id="check">Check</button>
-<!--                    <img src="https://i.postimg.cc/mgrvHKZx/appointment-booking-with-calendar-doctor-23-2148565452.jpg" class="animage" alt="">-->
+                    <input class="form-control col-sm-4" type="time">
+                    </div>
+                    <button class ="btn btn-success" id="check">Check</button>
+                   <img src="https://i.postimg.cc/mgrvHKZx/appointment-booking-with-calendar-doctor-23-2148565452.jpg" class="animage" alt="">
             </form>
         </div>
     </div>
-
+</div>
     <!-- footer -->
-        <div class="mt-5 pt-5 pb-5 footer">
+        <div class="pt-5 pb-5 footer">
             <div class="container ">
                 <div class="row">
                     <div class="col-lg-5 col-xs-12 about-company">
