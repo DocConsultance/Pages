@@ -1,0 +1,59 @@
+body{
+    font-family: 'Manrope', sans-serif !important;
+  }
+  
+  .navbar-light .navbar-brand{
+    color: #fff;
+  
+  }
+  .navbar-brand{
+    margin-left: 1em;
+    color: #fff !important;
+  }
+  .nav-item{
+    padding: 0.1em;
+  }
+  .nav-link{
+    color: #fff !important;
+    width: 200px;
+    margin-left: 30px;
+    margin-right: 30px;
+  
+  }
+  
+  /* #navbarNav{
+    height: 30px;
+  } */
+  .navbtn{
+    right: 10px;
+    margin: 8px;
+  }
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #fbfdff;
+    color: rgb(25, 40, 66);
+  }
+  .footer {
+    height: 1000px;
+
+    background: #4E4C62;
+    color: white;
+  }
+  
+  .reg{
+    border-radius: 30px;
+  }
+  .reg{
+    width: 80%;
+    height:60%;
+    background-color: #e8e8e8;
+    position: relative;
+    top: 320px;
+    /* left: 100px; */
+    /* padding-top:-10px; */
+    margin: -100px auto auto;
+    border-radius: 40px;
+  }
+
+ 
